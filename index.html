@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="calculator-body">
+        <div class="calsi-main-body">
+        <div class="search-bar">
+            <input type="text" name="search1" class="search" id="search2">
+        </div>
+
+        <div class="buttons-group">
+           <input type="button" class="button-group" value="+" onclick="search2.value += '+' ">
+           <input type="button" class="button-group" value="-" onclick="search2.value +='-' ">
+           <input type="button" class="button-group" value="*" onclick="search2.value +='*' ">
+           <input type="button" class="button-group" value="/" onclick="search2.value +='/' ">
+           <input type="button" class="button-group" value="." onclick="search2.value +='.' ">
+           <input type="button" class="button-group" value="1" onclick="search2.value +='1' ">
+           <input type="button" class="button-group" value="2" onclick="search2.value +='2' ">
+           <input type="button" class="button-group" value="3" onclick="search2.value +='3' ">
+           <input type="button" class="button-group" value="4" onclick="search2.value +='4' ">
+           <input type="button" class="button-group" value="5" onclick="search2.value +='5' ">
+           <input type="button" class="button-group" value="6" onclick="search2.value +='6' ">
+           <input type="button" class="button-group" value="7" onclick="search2.value +='7' ">
+           <input type="button" class="button-group" value="8" onclick="search2.value +='8' ">
+           <input type="button" class="button-group" value="9" onclick="search2.value +='9' ">
+           <input type="button" class="button-group" value="0" onclick="search2.value +='0' ">
+           <input type="button" class="button-group" value="=" onclick="search2.value =eval(search2.value)">
+           <input type="button" class="button-group" value="AC" onclick="search2.value = '' ">
+           <input type="button" class="button-group" value="DEL" onclick="search2.value = search2.value.toString().slice(0,-1)">
+        </div>
+    </div>
+    </div>
+</center>
+
+</body>
+
+</html>
